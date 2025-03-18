@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: right;
+    height: auto;
+}
+
+.main1 {
+    width: 50%;
+    height: auto;
+    margin-top: 10em;
+    display: block;
+}
+.sub1 {
+    width: 100%; 
+    height: auto;
+    transition: transform 0.5s;
+    margin-left: -2200px;;
+    margin-bottom: 50px;
+    margin-top:10em;
+}
+
+.container {
+    align-items: center; 
+}
+.sub1:hover{
+
+    transform: scale(1.05);
+}
+
+
+
